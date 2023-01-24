@@ -50,13 +50,15 @@
   transition: all 0.3s ease-in-out;
 }
 
-.joinBtn, .leaveBtn {
+.joinBtn,
+.leaveBtn {
   background: #4aee88;
   width: 100px;
   margin-left: auto;
 }
 
-.joinBtn:hover, .leaveBtn:hover {
+.joinBtn:hover,
+.leaveBtn:hover {
   background: #2b824c;
 }
 
@@ -120,6 +122,13 @@
 .leaveBtn {
   margin-top: 20px;
   width: 100%;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
 
 .createNewBtn:hover,
